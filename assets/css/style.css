@@ -1,0 +1,257 @@
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn-outline-success {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.bg-dark {
+  background-color: #3ECBBE!important;
+}
+
+.btn-outline-success:hover {
+  background-color: #138884;
+  outline-color: #138884;
+  border-color: #138884;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255);
+}
+
+.nav-link:hover {
+  color: rgba(255,255,255,.5);
+}
+
+.navbar-nav .nav-link.active {
+  color: rgba(255,255,255,.2);
+}
+
+.footer {
+  color: #495057 ;
+  font-style: italic;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #138884;
+  border-color: #138884;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #3ECBBE55;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+  background-color: #ffffff;
+}
+
+.table-striped>thead>tr>th {
+  background-color: #ffffff;
+}
+
+.miniatura {
+  height: 150px ;
+  width: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.bordeCliente {
+  border: 1px solid #3ECBBE
+}
+
+.detalle {
+  font-size: 11px ;
+  color: #495057 ;
+  font-style: italic
+}
+
+.detalleDer {
+  font-size: 11px ;
+  color: #495057 ;
+  font-style: italic;
+  float: right;
+}
+
+.textoCliente {
+  color: #495057 ;
+  font-style: italic
+}
+
+.btn {
+  background-color: #3ECBBE ;
+  border-color: transparent ;
+  color: #ffffff
+}
+
+.bordeBotonNav {
+  border-color: white;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #138884;
+  border-color: #138884;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: transparent ;
+}
+
+.table td {
+  border-top: 0px ;
+}
+
+.botonInfo {
+  color: #3ECBBE  ;
+  background-color: transparent ;
+}
+
+.botonInfo:hover {
+  color: #138884 ;
+  background-color:transparent ;
+  border-color: transparent ;
+}
+
+.btn:active {
+  background-color: #3ECBBE !important;
+  border-color: transparent !important;
+}
+
+.btn:focus {
+  box-shadow: none ;
+}
+
+.precio {
+  font-weight: bold;
+}
+
+.titulo {
+  font-weight: bold;
+}
+
+.miniatura2 {
+  height: 60px ;
+  width: auto;
+}
+
+.botonElim {
+  color: #3ECBBE;
+  background-color: transparent;
+  border-color:transparent;
+}
+
+.botonElim:hover {
+  color: #cc3f3f;
+  background-color: transparent;
+  border-color:transparent;
+}
+
+.botonElim:active {
+  color: #cc3f3f !important ;
+  background-color: transparent !important ;
+  border-color:transparent !important ;
+}
+
+.botonElim:focus {
+  color: #cc3f3f;
+  background-color: transparent;
+  border-color:transparent;
+}
+
+.headerPedido {
+  background-color: #3ECBBE55;
+  border-bottom: 0px solid #3ECBBE !important;
+}
+
+.tituloPedido {
+  font-size: 20px ;
+  font-weight: bold ;
+}
+
+.barras {
+  border-top: 1px solid #3ECBBE;
+}
+
+.tdCliente {
+  padding: 0.1rem !important;
+  padding-top: 0.1rem !important;
+  padding-right: 0.1rem !important;
+  padding-bottom: 0.1rem !important;
+  padding-left: 0.1rem !important;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ced4da;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #ced4da44;
+}
+
+.invisible-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 16px; 
+  cursor: pointer;
+  color: #333; 
+  text-decoration: none; 
+}
+
+.invisible-button:hover {
+  background-color: #f0f0f0; 
+}
+
+.invisible-button:focus {
+  outline: none;
+}
+
+.tarea-info {
+  font-size: 14px; 
+  color: #666; 
+}
+
+.barras {
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 50%; 
+}
+
+.fixed-button {
+  position: fixed;
+  bottom: 100px; 
+  right: 20px;
+  z-index: 9999;
+}
+
+.row {
+  margin: 0;
+}
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  margin-bottom: 20px;
+  left: 0;
+  z-index: 9999;
+}
+
+.margin-top-fixed-bottom {
+  margin-top: 50px; /* Ajusta según sea necesario */
+}
+
+.posicionBotonesPag {
+  margin-bottom: 100px;
+}
